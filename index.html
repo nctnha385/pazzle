@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodie Sizzle</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2036224600016035"
+     crossorigin="anonymous"></script>
     <style>
         * {
             margin: 0;
@@ -172,6 +174,12 @@
     .overlay.show {
         display: block;
     }
+
+    .ad-container {
+        margin-top: 15px;
+        text-align: center;
+        min-height: 90px;
+    }
 </style>
 ```
 
@@ -198,6 +206,19 @@
 
     <div class="buttons">
         <button onclick="newGame()">新しいゲーム</button>
+    </div>
+
+    <!-- Google AdSense 広告 -->
+    <div class="ad-container">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-2036224600016035"
+             data-ad-slot="auto"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
     </div>
 </div>
 
@@ -502,7 +523,5 @@
     // ゲーム開始
     newGame();
 </script>
-```
-
 </body>
 </html>
